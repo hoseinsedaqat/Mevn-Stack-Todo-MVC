@@ -1,0 +1,46 @@
+// methods: {
+  //   postTask() {
+  //     axios.post("http://localhost:3000/api/task", {
+  //       task: this.task,
+  //     });
+  //     axios
+  //       .get("http://localhost:3000/api/task")
+  //       .then((data) => {
+  //         const tasks = [];
+  //         for (let task in data.data) {
+  //           const eachTask = data.data[task];
+  //           tasks.push(eachTask);
+  //         }
+  //         this.allTasks = tasks;
+  //       })
+  //       .catch((error) => console.log(error));
+  //   },
+  //   deleteTask(index) {
+  //     axios.delete(`http://localhost:3000/api/task/${index}`);
+
+  //     axios
+  //       .get("http://localhost:3000/api/task")
+  //       .then((data) => {
+  //         const tasks = [];
+  //         for (let task in data.data) {
+  //           const eachTask = data.data[task];
+  //           tasks.push(eachTask);
+  //         }
+  //         this.allTasks = tasks;
+  //       })
+  //       .catch((error) => console.log(error));
+  //   },
+  // },
+  // mounted() {
+  //   axios
+  //     .get("http://localhost:3000/api/task")
+  //     .then((data) => {
+  //       const tasks = [];
+  //       for (let task in data.data) {
+  //         const eachTask = data.data[task];
+  //         tasks.push(eachTask);
+  //       }
+  //       this.allTasks = tasks;
+  //     })
+  //     .catch((error) => console.log(error));
+  // },
