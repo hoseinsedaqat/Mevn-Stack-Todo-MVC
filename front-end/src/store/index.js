@@ -6,6 +6,7 @@ export default createStore({
   state: {
     allTasks: [],
   },
+  // actions
   actions: {
     async getTasks({ commit }) {
       const response = await axios.get('http://localhost:3000/api/task');
