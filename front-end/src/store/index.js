@@ -47,6 +47,7 @@ export default createStore({
       })
     }
   },
+  // getters
   getters: {
     getAllTasks: (state) => state.allTasks
   }
