@@ -28,6 +28,7 @@ export default createStore({
       console.log(response.data)
     }
   },
+  // mutations
   mutations: {
     pushTask: (state, tasks) => {
       state.allTasks = tasks;
